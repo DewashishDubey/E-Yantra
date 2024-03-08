@@ -1,0 +1,73 @@
+.hero {
+    background-size: cover;
+    background-color: #0C4CA2;
+    height: 60vh;
+}
+
+.about {
+    color: gold;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 70vh;
+}
+
+.any {
+    display: flex;
+}
+
+.aboutcard {
+    background-color: #D9D9D9;
+    height: 40vh;
+    width: 100vh;
+    border-radius: 40px;
+    box-shadow: 5px 5px 18px 0px #323232;
+    margin-left: 20vh;
+}
+
+.abouttext {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.heroimg {
+    height: 30vh;
+    margin-top: 30px;
+    display: inline;
+    margin-left: 80px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 18px 0px #323232;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    .about {
+        font-size: 30px;
+        margin-left: 0;
+    }
+
+    .aboutcard {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .heroimg {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about {
+        font-size: 24px;
+    }
+
+    .aboutcard {
+        width: 80vw;
+        margin-left: 0;
+    }
+
+    .heroimg {
+        display: block;
+        margin: 0 auto;
+    }
+}
