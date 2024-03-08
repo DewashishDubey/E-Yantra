@@ -10,7 +10,7 @@ function About() {
         <div className="any">
         <img className='heroimg' src={heroimg} alt='logo'/>
         <div className='aboutcard'>
-        <div className="abouttext">E-Yantra is a robotics focused educational outreach initiative of the Department of Computer Science and Engineering at the SRM institute of Science and Technology, Chennai.
+        <div className="abouttext"> outreach initiative of the Department of Computer Science and Engineering at the SRM institute of Science and Technology, Chennai.
           <br/>
           <br />
           <br/>
