@@ -1,21 +1,36 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import logoimg from '../assets/Logo.png';
 import logoimg1 from '../assets/Logo1.png';
-import logoimg2 from '../assets/Logo2.jpg';
 
 import './Nav.css';
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 100) { // Adjust the value according to when you want the change to occur
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <>
-      <nav className={`navbar ${isMenuOpen ? 'active' : ''}`}>
+      <nav className={`navbar ${isMenuOpen ? 'active' : ''} ${isScrolled ? 'scrolled' : ''}`}>
         <div className="container">
           <div className="logo">
             <img
@@ -23,12 +38,7 @@ function Nav() {
               className="logoimg"
               alt="Description of the Image"
             />
-            <img
-              src={logoimg2}
-              id="logoim1"
-              className="logoimg"
-              alt="Description of the Image"
-              />
+            <div className="divider"></div>
             <a href='https://www.srmist.edu.in/'>
             <img
               src={logoimg1}
@@ -41,31 +51,26 @@ function Nav() {
           <div className={`nav-elements ${isMenuOpen ? 'active' : ''}`}>
             <ul>
               <li>
-                <NavLink to="/" onClick={toggleMenu}>
+                <NavLink to='/'>
                   About Us
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/about" onClick={toggleMenu}>
+                <NavLink to="/comp" onClick={toggleMenu}>
                   Components
                 </NavLink>
               </li>
+              
               <li>
-                <NavLink to="/components" onClick={toggleMenu}>
-                  Staff
-                </NavLink>
-              </li>
-              <li>
-                <NavLink to="/staff" onClick={toggleMenu}>
+                <NavLink to="/gallery" onClick={toggleMenu}>
                   Gallery
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/gallery" onClick={toggleMenu}>
+                <a href="#footer" onClick={toggleMenu}>
                   Contact Us
-                </NavLink>
+                </a>
               </li>
-
             </ul>
           </div>
           <div className="hamburger" onClick={toggleMenu}>

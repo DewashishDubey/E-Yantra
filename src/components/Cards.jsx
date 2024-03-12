@@ -3,6 +3,7 @@ import cardimg1 from "../assets/card1.jpeg"
 import cardimg2 from "../assets/card2.jpeg"
 import cardimg3 from "../assets/card3.jpeg"
 import cardimg4 from "../assets/card4.jpeg"
+import { Link } from 'react-router-dom'
 
 function Cards() {
   return (
@@ -23,8 +24,10 @@ function Cards() {
               <div className="card">
                       <img src={cardimg4} alt='card2'/>
               </div>
-          </div>
-          <button className='more'>Show More</button>
+      </div>
+      <Link to='/comp'>
+        <button className='more'>Show More</button>
+      </Link>
     </>
   )
 }
