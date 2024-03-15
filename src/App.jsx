@@ -14,6 +14,7 @@ import Seven from './components/Seven'
 import Eight from './components/Eight'
 import Nine from './components/Nine'
 import Ten from  './components/Ten'
+import Gallery from './components/Gallery'
 function App() {
   return (
     <>
@@ -22,6 +23,7 @@ function App() {
         <Route path='/' element={<Home />} />
           <Route path='/comp' element={<Comp />} />
           <Route path='/staff' element={<Staff />} />
+          <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/One' element={<One/>}/>
           <Route path='/Two' element={<Two/>}/>
           <Route path='/Three' element={<Three/>}/>

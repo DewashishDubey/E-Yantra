@@ -8,38 +8,51 @@ h2 span{
 .cards{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 60px;
 }
-.card{
+.card {
     background-color: #0C4CA2;
-    width:50vh;
+    width: 50vh;
     height: 50vh;
-    margin-left: 30vh;
+    margin-left: 37vh;
     border-radius: 50px;
     box-shadow: 5px 5px 15px 0px #0C4CA2;
-    margin-top:30px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
 }
-.more{
-    
-   display: inline-block;
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+.more {
+    display: inline-block;
     background-color: #0C4CA2;
     border-radius: 50px;
     color: aliceblue;
     height: 7vh;
-    width:100px;
-    margin-left: 87vh;
+    width: 100px;
+    margin-left: 46vw;
     margin-top: 8vh;
     text-align: center;
-    border-color: #0C4CA2;
+    border: 2px solid #0C4CA2;
     box-shadow: 5px 5px 10px 0px #0C4CA2;
     padding-bottom: 10px;
     padding-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
-img{
+
+.more:hover {
+    background-color: #fff; 
+    color: #0C4CA2;
+}
+.homecard{
     border-radius: 50px;
     width:40vh;
+    height: 40vh;
     
 }
 .new2{
@@ -48,10 +61,35 @@ img{
     border-radius: 5px;
     width:50vh
 }
-@media (max-width: 768px) {
-    .more{
-        margin-left: 50vw;
+@media (max-width: 600px) {
+    .card {
+        width: 90vw; /* Adjust card width for better fit on smaller screens */
+        height: 40vh; /* Adjust card height for better proportion on smaller screens */
+        margin-left: 0vw;
+        margin-right: 15vw; /* Adjust margin for centering on smaller screens */
     }
 
+    .more {
+        margin-left: 30px; /* Adjust margin for centering on smaller screens */
+        margin-top: 4%; /* Adjust margin for better spacing on smaller screens */
+    }
 
+    .homecard {
+        margin-left: 10%;
+        width: 80%; /* Adjust image width for better fit on smaller screens */
+    }
+
+    .new2 {
+        width: 90vw; /* Adjust width for better fit on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Adjust font size for better readability on smaller screens */
+        margin-top: 20px; /* Adjust margin top for spacing on smaller screens */
+    }
+
+    .more {
+        margin-left: 5vw; /* Adjust margin left for centering on smaller screens */
+        margin-top: 4vh; /* Adjust margin top for spacing on smaller screens */
+    }
 }

@@ -3,12 +3,12 @@ import Nav from "./Nav";
 import pic1 from '../assets/Img9.jpg';
 import "./Nine.css";
 
-function One() {
+function Nine() {
   return (
     <>  <div className="body">
         <Nav />
         <h1 className="topname">STM32 Nucleo boards</h1>
-        <img className="topimg" src={pic1} alt="" />
+        <img className="topimg1" src={pic1} alt="" />
 
        <div className="allone">
         <div className="left">
@@ -47,4 +47,4 @@ Mass storage (USB Disk drive) for drag'n'drop programming  Debug port  <br />
     </>
   )
 }
-export default One
+export default Nine

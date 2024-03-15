@@ -39,3 +39,40 @@ h5{
 .sal{
     margin-left: 45px;
 }
+@media (max-width: 600px) {
+    .simg {
+        margin: 20px auto; /* Center image horizontally and adjust top margin for spacing on smaller screens */
+        height: 100px; /* Adjust image height for better fit on smaller screens */
+        width: 100px; /* Adjust image width for better fit on smaller screens */
+        border-radius: 15px; /* Reduce border radius for a more subtle effect on smaller screens */
+    }
+
+    .scard {
+        width: 90%; /* Adjust card width for better fit on smaller screens */
+        height: 250px; /* Adjust card height for better proportion on smaller screens */
+        margin: 20px auto; /* Center card horizontally and adjust margins for spacing on smaller screens */
+    }
+
+    .space {
+        display: none; /* Hide space element on smaller screens to save space */
+    }
+
+    h5 {
+        text-align: center; /* Center align h5 text for better readability on smaller screens */
+        margin: 10px auto; /* Center h5 horizontally and adjust margin for spacing on smaller screens */
+    }
+
+    .slider-container {
+        margin-left: 5vw; /* Adjust left margin for centering on smaller screens */
+    }
+
+    .n {
+        width: 70%; /* Adjust width for better fit on smaller screens */
+        margin: 10px auto; /* Center n element horizontally and adjust margin for spacing on smaller screens */
+    }
+
+    .sal {
+        text-align: center; /* Center align sal text for better readability on smaller screens */
+        margin-left: 0; /* Remove left margin to center sal horizontally on smaller screens */
+    }
+}

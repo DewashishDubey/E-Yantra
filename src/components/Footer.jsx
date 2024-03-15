@@ -30,8 +30,8 @@ function Footer() {
       </div>
 
       <div className="lfooter">
-        <div className="text">Page Updated: 08/03/2024</div>
-        <div className="text">
+        <div className="text ">Page Updated: 08/03/2024</div>
+        <div className=" text">
           Privacy Policy
         </div>
         <div className="text">

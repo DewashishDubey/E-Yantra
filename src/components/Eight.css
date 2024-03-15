@@ -11,12 +11,11 @@
     overflow-x: hidden;
 }
 
-.topimg {
-    height: 70vh;
-    width: 120vh;
-    margin: 10vh 33vw;
+.topimg1 {
+    height: 50vh;
+    width: 60vw;
+    margin: 5vh 20vw;
 }
-
 .line {
     border-left: 6px solid #0C4CA2;
     height: 430px;
@@ -53,16 +52,17 @@
 }
 
 @media screen and (max-width: 600px) {
-    .topimg {
+    .topimg1 {
         height: 30vh;
         width: 100vw;
         margin: 10vh 0;
     }
+    .onemain {
+        font-size: 10px;
+    }
 
     .line {
-        border-left: 6px solid #0C4CA2;
-        height: 850px;
-        border-radius: 10px;
+        height: 850px; /* Adjust height as needed for better visibility on smaller screens */
         margin-left: 0;
         margin-right: 0;
     }
@@ -76,20 +76,22 @@
         width: 100%;
     }
 
-    h1 {
+    .topname {
+        margin-left: 0; /* Adjust margin for better alignment on smaller screens */
+        margin-top: 5vw; /* Adjust margin for better spacing on smaller screens */
+    }
 
-        margin-left: 25vw;
+    h1 {
+        margin-left: 5vw; /* Adjust margin for better alignment on smaller screens */
         margin-top: 5vw;
     }
 
     p {
-        font-size: 10px;
+        font-size: 10px; /* Increase font size for better readability on smaller screens */
     }
 
-    .all {
-
-        display: flex;
+    .allone {
+        display: block; /* Change display to block for better stacking on smaller screens */
         margin-bottom: 10vh;
-
     }
 }

@@ -3,12 +3,12 @@ import Nav from "./Nav";
 import pic1 from '../assets/Img5.jpg';
 import "./Five.css";
 
-function One() {
+function Five() {
   return (
     <>  <div className="body">
         <Nav />
         <h1 className="topname">ATmega2560 Development Board</h1>
-        <img className="topimg" src={pic1} alt="" />
+        <img className="topimg1" src={pic1} alt="" />
 
        <div className="allone">
         <div className="left">
@@ -56,4 +56,4 @@ The board is built with a double-sided PCB for stronger connections and a heat s
     </>
   )
 }
-export default One
+export default Five

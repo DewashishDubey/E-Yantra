@@ -8,22 +8,31 @@ import { Link } from 'react-router-dom'
 function Cards() {
   return (
     <>
-          <h2><span>Our</span> Components</h2>
-          <hr className="new2"/>
-          <div className="cards">
-              <div className='card'>
-                    <img src={cardimg1} alt='card1'/>
-              </div>
-              <div className='card'>
-                                      <img src={cardimg2} alt='card2'/>
-
-              </div>
-              <div className="card">
-                      <img src={cardimg3} alt='card2'/>
-              </div>
-              <div className="card">
-                      <img src={cardimg4} alt='card2'/>
-              </div>
+      <h2><span>Our</span> Components</h2>
+      <hr className="new2" />
+      <div className="cards">
+        <div className='card'>
+        <Link to='/Seven '>
+          <img className='homecard' src={cardimg1} alt='card1' />
+          </Link>
+        </div>
+         
+        <div className='card'>
+        <Link to='/One '>
+ 
+          <img className='homecard' src={cardimg2} alt='card2' />
+        </Link>
+        </div>
+        <div className="card">
+        <Link to='/Four'>
+          <img className='homecard' src={cardimg3} alt='card2' />
+          </Link>
+        </div>
+        <div className="card">
+        <Link to='/Three'>
+          <img className='homecard' src={cardimg4} alt='card2' />
+          </Link>
+        </div>
       </div>
       <Link to='/comp'>
         <button className='more'>Show More</button>

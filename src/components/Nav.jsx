@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 import logoimg from '../assets/Logo.png';
 import logoimg1 from '../assets/Logo1.png';
-
 import './Nav.css';
 
 function Nav() {
@@ -16,7 +16,7 @@ function Nav() {
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
-      if (offset > 100) { // Adjust the value according to when you want the change to occur
+      if (offset > 100) { 
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -56,6 +56,13 @@ function Nav() {
                 </NavLink>
               </li>
               <li>
+              <a href="#Staff"  onClick={(e) => { e.preventDefault(); toggleMenu(); }}>
+              <ScrollLink to="Staff" spy={true} smooth={true} duration={900}>
+                    Faculty
+                  </ScrollLink>
+              </a>
+                </li>
+              <li>
                 <NavLink to="/comp" onClick={toggleMenu}>
                   Components
                 </NavLink>
@@ -65,10 +72,12 @@ function Nav() {
                 <NavLink to="/gallery" onClick={toggleMenu}>
                   Gallery
                 </NavLink>
-              </li>
-              <li>
-                <a href="#footer" onClick={toggleMenu}>
-                  Contact Us
+              </li> 
+              <li> 
+              <a href="#footer"  onClick={(e) => { e.preventDefault(); toggleMenu(); }}>
+                  <ScrollLink to="footer" spy={true} smooth={true} duration={900}>
+                    Contact Us
+                  </ScrollLink>
                 </a>
               </li>
             </ul>

@@ -1,0 +1,53 @@
+.allph{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 120px;
+}
+.Galleryimg{
+
+    height: 70vh;
+    width: 40vw;
+    margin: 20px;
+    margin-top: 20vh;
+    border-radius: 30px;
+}
+.bgalleryimg{
+    margin-top: 10vh;
+    width: 60vw;
+    height: 60vh;
+    margin-left: 20vw;
+    margin-bottom: 10vh;
+    border-radius: 30px;
+
+}
+img:hover{
+    scale: 1.08 ;
+    transition: 1s;
+}
+/* For screens smaller than 768px (typical phone screens) */
+@media only screen and (max-width: 767px) {
+    .allph {
+        display: block;
+        margin-left: 0;
+        margin-top: 100px;
+    }
+
+    .Galleryimg {
+        width: 90vw;
+        height: auto;
+        margin: 10px;
+        margin-bottom: 50px;
+
+    }
+    .bgalleryimg{
+        width: 90vw;
+        height: auto;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+
+    img:hover {
+        transform: scale(1.08);
+        transition: transform 1s;
+    }
+}

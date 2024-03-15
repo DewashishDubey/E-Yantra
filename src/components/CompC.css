@@ -2,17 +2,21 @@
     margin-top: 100px;
 }
 .comp {
-    height: 500px;
+    height: 600px;
     width: 450px;
     background-color: #0C4CA2;
     border-radius: 20px;
-    margin-left: 130px;
+    margin-left: 235px;
     margin-top: 100px;
     margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
+}
+.comp:hover {
+    transform: translateY(-5px); 
 }
 
 .all {
@@ -57,7 +61,7 @@ h2 span {
 }
 
 .ccompimg {
-    margin-top: 20px;
+    margin-top: 10px;
     height: 30vh;
     width: 20vw;
 }
@@ -70,4 +74,40 @@ h2 span {
 p {
     text-decoration: none;
     text-transform: none;
+}
+@media (max-width: 600px) {
+    .comp {
+        width: 90vw; /* Adjust component width for better fit on smaller screens */
+        height: auto; /* Allow component height to adjust based on content */
+        margin-left: 5vw; /* Adjust margin for centering on smaller screens */
+        margin-top: 50px; /* Adjust top margin for spacing on smaller screens */
+        margin-bottom: 30px; /* Adjust bottom margin for spacing on smaller screens */
+    }
+
+    .n {
+        width: 90vw; /* Adjust width for better fit on smaller screens */
+    }
+
+    .ccompimg {
+        width: 80%; /* Adjust image width for better fit on smaller screens */
+        height: auto;
+        margin-left: 38px;
+        margin-top: 10px; /* Allow image height to adjust based on content */
+    }
+
+    .search {
+        width: 95%; /* Adjust search input width for better fit on smaller screens */
+        margin-top: 10px; /* Adjust top margin for spacing on smaller screens */
+        margin-right: 0; /* Remove right margin for better alignment on smaller screens */
+        float: none; /* Remove float to center search input on smaller screens */
+    }
+
+    .whole {
+        margin-top: 50px; /* Adjust top margin for spacing on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Adjust font size for better readability on smaller screens */
+        margin-top: 20px; /* Adjust top margin for spacing on smaller screens */
+    }
 }

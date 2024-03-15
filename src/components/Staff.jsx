@@ -1,4 +1,5 @@
 import "./Staff.css"
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -8,15 +9,17 @@ import img3 from "../assets/S3.png"
 import img4 from "../assets/S4.png"
 import img5 from "../assets/S5.png"
 
-
 function Staff() {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 10000,
     slidesToShow: 4,
     slidesToScroll: 4,
-    initialSlide: 0,
+    initialSlide: 1,
+    autoplay: true,
+    autoplaySpeed: 300, 
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 1024,
@@ -46,7 +49,7 @@ function Staff() {
   };
   return (<>
     <div id="Staff">
-              <h2><span>Staff</span> </h2>
+              <h2><span>Faculty</span> </h2>
           <hr className="n"/>
 
     <div className="slider-container">
@@ -95,4 +98,4 @@ function Staff() {
   )
 }
 
-export default Staff
+export default Staff;

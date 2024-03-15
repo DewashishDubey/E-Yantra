@@ -8,7 +8,7 @@ function One() {
     <>  <div className="body">
         <Nav />
         <h1 className="topname">FIRE BIRD V ATMEGA2560</h1>
-        <img className="topimg" src={pic1} alt="" />
+        <img className="topimg1" src={pic1} alt="" />
 
        <div className="allone">
         <div className="left">
