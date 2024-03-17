@@ -14,7 +14,7 @@ h2 span{
     background-color: #0C4CA2;
     width: 50vh;
     height: 50vh;
-    margin-left: 37vh;
+    margin-left: 30vh;
     border-radius: 50px;
     box-shadow: 5px 5px 15px 0px #0C4CA2;
     margin-top: 30px;
@@ -23,7 +23,6 @@ h2 span{
     align-items: center;
     transition: transform 0.3s ease;
 }
-
 .card:hover {
     transform: translateY(-5px); 
 }

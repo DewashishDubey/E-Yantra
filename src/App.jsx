@@ -4,6 +4,7 @@ import './App.css'
 import Home from './components/Home'
 import Comp from './components/Comp'
 import Staff from './components/Staff'
+import Faculty from './components/Faculty'
 import One from './components/One'
 import Two from './components/Two'
 import Three from './components/Three'
@@ -24,6 +25,7 @@ function App() {
           <Route path='/comp' element={<Comp />} />
           <Route path='/staff' element={<Staff />} />
           <Route path='/gallery' element={<Gallery/>}/>
+          <Route path='/faculty' element={<Faculty/>}/>
           <Route path='/One' element={<One/>}/>
           <Route path='/Two' element={<Two/>}/>
           <Route path='/Three' element={<Three/>}/>

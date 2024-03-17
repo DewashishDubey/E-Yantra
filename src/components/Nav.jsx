@@ -33,11 +33,13 @@ function Nav() {
       <nav className={`navbar ${isMenuOpen ? 'active' : ''} ${isScrolled ? 'scrolled' : ''}`}>
         <div className="container">
           <div className="logo">
+            <NavLink to={'/'}>
             <img
               src={logoimg}
               className="logoimg"
               alt="Description of the Image"
             />
+            </NavLink>
             <div className="divider"></div>
             <a href='https://www.srmist.edu.in/'>
             <img
@@ -56,11 +58,9 @@ function Nav() {
                 </NavLink>
               </li>
               <li>
-              <a href="#Staff"  onClick={(e) => { e.preventDefault(); toggleMenu(); }}>
-              <ScrollLink to="Staff" spy={true} smooth={true} duration={900}>
-                    Faculty
-                  </ScrollLink>
-              </a>
+              <NavLink to="/faculty" onClick={toggleMenu}>
+                  Faculty
+                </NavLink>
                 </li>
               <li>
                 <NavLink to="/comp" onClick={toggleMenu}>

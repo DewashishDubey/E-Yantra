@@ -31,10 +31,11 @@ h5{
     margin-left: 30vh;
 }
 .n{
-    border: 5px solid;
-        color: #0C4CA2;
-        border-radius: 5px;
-        width: 20vh
+    background-image: linear-gradient(to right,#0C4CA2, rgb(0, 0, 0));
+border-radius: 5px;
+width: 10vh;
+height: .5vh;
+margin-top: 50px;
 }
 .sal{
     margin-left: 45px;
