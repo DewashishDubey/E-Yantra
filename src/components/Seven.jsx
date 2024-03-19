@@ -3,12 +3,12 @@ import Nav from "./Nav";
 import pic1 from '../assets/Img7.jpg';
 import "./Seven.css";
 
-function One() {
+function Seven() {
   return (
     <>  <div className="body">
         <Nav />
         <h1 className="topname">Raspberry-Pi 3 model B+</h1>
-        <img className="topimg" src={pic1} alt="" />
+        <img className="topimg1" src={pic1} alt="" />
 
        <div className="allone">
         <div className="left">
@@ -56,4 +56,4 @@ Widely adopted in educational settings and popular among hobbyists and makers fo
     </>
   )
 }
-export default One
+export default Seven

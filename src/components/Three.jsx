@@ -3,12 +3,12 @@ import Nav from "./Nav";
 import pic1 from '../assets/Img3.jpg';
 import "./Three.css";
 
-function One() {
+function Three() {
   return (
     <>  <div className="body">
         <Nav />
         <h1 className="topname">ESP32 Development Board</h1>
-        <img className="topimg" src={pic1} alt="" />
+        <img className="topimg1" src={pic1} alt="" />
 
        <div className="allone">
         <div className="left">
@@ -56,4 +56,4 @@ Power-saving features, including fine resolution clock gating, multiple power mo
     </>
   )
 }
-export default One
+export default Three

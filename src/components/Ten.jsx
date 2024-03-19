@@ -3,12 +3,12 @@ import Nav from "./Nav";
 import pic1 from '../assets/Img10.jpg';
 import "./Ten.css";
 
-function One() {
+function Ten() {
     return (
         <>  <div className="body">
             <Nav />
             <h1 className="topname">Tiva Launchpad</h1>
-            <img className="topimg" src={pic1} alt="" />
+            <img className="topimg1" src={pic1} alt="" />
 
             <div className="allone">
                 <div className="left">
@@ -65,4 +65,4 @@ function One() {
         </>
     )
 }
-export default One
+export default Ten

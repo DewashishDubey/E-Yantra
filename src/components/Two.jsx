@@ -3,12 +3,12 @@ import Nav from "./Nav";
 import pic1 from '../assets/Img2.jpg';
 import "./Two.css";
 
-function One() {
+function Two() {
   return (
     <>  <div className="body">
         <Nav />
         <h1 className="topname">ESP8266 Development Board</h1>
-        <img className="topimg" src={pic1} alt="" />
+        <img className="topimg1" src={pic1} alt="" />
 
        <div className="allone">
         <div className="left">
@@ -42,4 +42,4 @@ Integrates antenna switches, RF balun, power amplifier, low noise receive amplif
     </>
   )
 }
-export default One
+export default Two

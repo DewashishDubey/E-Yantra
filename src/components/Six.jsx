@@ -3,12 +3,12 @@ import Nav from "./Nav";
 import pic1 from '../assets/Img6.jpg';
 import "./Six.css";
 
-function One() {
+function Six() {
   return (
     <>  <div className="body">
         <Nav />
         <h1 className="topname">P89V51RD2 Development Board</h1>
-        <img className="topimg" src={pic1} alt="" />
+        <img className="topimg1" src={pic1} alt="" />
 
        <div className="allone">
         <div className="left">
@@ -56,4 +56,4 @@ Includes reset and power switches for user control.<br /><br />
     </>
   )
 }
-export default One
+export default Six

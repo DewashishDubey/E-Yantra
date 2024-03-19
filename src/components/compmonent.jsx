@@ -49,13 +49,13 @@ const compmonent = () => {
           { img: pic10, title: 'Tiva Launchpad', description: 'The TM4C123G LaunchPad evaluation kit is a low-cost evaluation platform for Arm Cortex-M4F based microcontrollers(MCUs).' }
 
         ].filter((card) => filterCards(card)).map((card, index) => (
-          <div key={index} className="comp">
+         
             <a href={`${card.title[0]}`} >
+               <div key={index} className="comp"></div>
               <img src={card.img}/>
             </a>
-            <h3>{card.title}</h3>
-            <div className="onlyw">{card.description}</div>
-          </div>
+           
+          
         ))}
       </div>
     </>

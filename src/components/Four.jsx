@@ -3,12 +3,12 @@ import Nav from "./Nav";
 import pic1 from '../assets/Img4.jpg';
 import "./Four.css";
 
-function One() {
+function Four() {
   return (
     <>  <div className="body">
         <Nav />
         <h1 className="topname">LPC2148 Development Board</h1>
-        <img className="topimg" src={pic1} alt="" />
+        <img className="topimg1" src={pic1} alt="" />
 
        <div className="allone">
         <div className="left">
@@ -55,4 +55,4 @@ Equipped with an on-chip USB controller, offering a direct high-speed interface 
     </>
   )
 }
-export default One
+export default Four

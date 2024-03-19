@@ -3,12 +3,12 @@ import Nav from "./Nav";
 import pic1 from '../assets/Img8.jpg';
 import "./Eight.css";
 
-function One() {
+function Eight() {
   return (
     <>  <div className="body">
         <Nav />
         <h1 className="topname">Altera Cyclone IV FPGA DE0-Nano</h1>
-        <img className="topimg" src={pic1} alt="" />
+        <img className="topimg1" src={pic1} alt="" />
 
        <div className="allone">
         <div className="left">
@@ -20,7 +20,7 @@ function One() {
        <div className="line"></div>
         <div className="right">
 
-<p className="onemain">This FPGA development board is ideal for small projects like robots and mobile devices due to its compact size.
+<p className="onemain1">This FPGA development board is ideal for small projects like robots and mobile devices due to its compact size.
 <br /><br />
 It features a powerful Altera Cyclone IV FPGA with 22,320 logic elements, 32 MB of SDRAM, and 2 Kb EEPROM for efficient processing and data storage. Additionally, it includes a 64 Mb serial configuration memory device.
 <br /><br /><br />
@@ -35,4 +35,4 @@ Power: Can be powered via USB or an external source.</p>
     </>
   )
 }
-export default One
+export default Eight

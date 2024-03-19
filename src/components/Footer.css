@@ -5,31 +5,31 @@
     align-items: center;
 }
 .flogo{
-    width: 40vh;
-    height: 15vh;
+    width: 30vh;
+    height: 12vh;
     border-radius: 0px;
     margin: 40px;
 }
 .lfooter{
     background-color:  #0C4CA2;
-    height: 5vh;
+    height: 10vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
+
 .text{
-margin: 20px;
+margin-left: 0px;
 color: #ffff;
 }
 .alllogo{
     display: flex;
     flex-direction: row;
-    margin:auto;
-    margin-right: 10px;
 }
 .logos{
     height: 25px;
     width: 27px;
-    margin: 0px 10px;
+    margin-right: 10px;
 
 }
 .contact{
@@ -41,6 +41,7 @@ color: #ffff;
     width: 20px;
     margin-right: 10px;
     margin-top: 5px;
+    margin-bottom: 0;
 }
 @media (max-width: 768px) {
     .mfooter {
@@ -86,6 +87,6 @@ color: #ffff;
     .text{
         font-size: 8px;
         color: #ffff;
-        margin: 10px;
+        margin: 0px;
     }
 }

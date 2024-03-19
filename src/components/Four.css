@@ -11,10 +11,10 @@
     overflow-x: hidden;
 }
 
-.topimg {
-    height: 70vh;
-    width: 120vh;
-    margin: 10vh 33vw;
+.topimg1 {
+    height: 50vh;
+    width: 60vw;
+    margin: 5vh 20vw;
 }
 
 .line {
