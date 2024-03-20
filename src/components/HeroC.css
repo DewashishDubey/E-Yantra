@@ -22,4 +22,7 @@ h3 {
         text-align: center; /* Center align h3 text for better readability on smaller screens */
         margin: 20px auto; /* Center h3 horizontally and adjust margin for spacing on smaller screens */
     }
+    #hid{
+        display: none;
+    }
 }

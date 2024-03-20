@@ -9,7 +9,7 @@ function Cards() {
   return (
     <>
       <h2><span>Our</span> Components</h2>
-      <hr className="new2" />
+      <hr className="n" />
       <div className="cards">
         <div className='card'>
         <Link to='/Seven '>
@@ -19,23 +19,23 @@ function Cards() {
          
         <div className='card'>
         <Link to='/One '>
- 
+  
           <img className='homecard' src={cardimg2} alt='card2' />
         </Link>
         </div>
-        <div className="card">
+        <div className="card"  id='hid'>
         <Link to='/Four'>
           <img className='homecard' src={cardimg3} alt='card2' />
           </Link>
         </div>
-        <div className="card">
+        <div className="card" id='hid2'>
         <Link to='/Three'>
-          <img className='homecard' src={cardimg4} alt='card2' />
+          <img className='homecard'  src={cardimg4} alt='card2' />
           </Link>
         </div>
       </div>
       <Link to='/comp'>
-        <button className='more'>Show More</button>
+        <button className='moe'>Show More</button>
       </Link>
     </>
   )

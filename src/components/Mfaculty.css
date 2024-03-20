@@ -1,42 +1,4 @@
-.linef {
-    border-left: 6px solid #0C4CA2;
-    height: 1590px;
-    border-radius: 10px;
-    margin-left: 10vh;
-    margin-right: 2vw;
-}
-.all{
-    display: flex;
-    flex-direction: row;
-}
-.first{
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-}
-#f{
-    font-weight: bolder;
-    margin-top: 100px;
-    font-size: 25px;
-    width: 220px;
-    color: #0C4CA2;
-    margin-left: 20px;
-}
-#t{
-    font-weight: bolder;
-    margin-top: 100px;
-    font-size: 25px;
-    width: 300px;
 
-    margin-left: 190px; 
-}
-.muth{
-   margin-left: 400px;
-    height: 30vh;
-    width: 30vh;
-    margin-top: 20px;
-    border-radius: 20px;
-}
 /* Default styles */
 .linef {
     border-left: 6px solid #0C4CA2;
@@ -45,10 +7,13 @@
     margin-left: 10vh;
     margin-right: 2vw;
 }
-
+.facultyhead{
+    margin-top: 15vh;
+}
 .all {
     display: flex;
     flex-direction: row;
+    margin-bottom: 100px;
 }
 
 .first {
@@ -78,37 +43,49 @@
     height: 30vh;
     width: 30vh;
     margin-top: 20px;
-    border-radius: 20px;
+  
 }
 @media only screen and (max-width: 768px) {
     .linef {
      
-        height: auto; /* Adjust height as needed */
+        height: 600px; /* Adjust height as needed */
         margin: 30px 5vw; /* Adjust margins for better spacing */
     }
     .first {
         margin-top: 20px; /* Adjust margin for better spacing */
     }
-    #f, #t {
+     #t {
         margin-top: 50px; /* Adjust margin for better spacing */
         font-size: 10px; /* Adjust font size for better readability */
-        width: 12%; /* Make width full for better responsiveness */
+        width: 30%; /* Make width full for better responsiveness */
         margin-left: 0; /* Reset margin for better alignment */
+    }
+    #f{
+        margin-top: 50px; /* Adjust margin for better spacing */
+        font-size: 10px; /* Adjust font size for better readability */
+        width: 20%; /* Make width full for better responsiveness */
+        margin-left: 0; /* Reset margin for better alignment */ 
+    }
+    #r{
+        margin-left: 200px;
+        margin-top: -625px;
     }
     .mu {
         margin: 3vh ; /* Center align the element */
-        height: 10vh; /* Adjust height for better display */
-        width: 30%; /* Adjust width for better responsiveness */
-        margin-top: 10px; /* Adjust margin for better spacing */
+        height: 6vh; /* Adjust height for better display */
+        width: 25%; /* Adjust width for better responsiveness */
+        margin-top: 20px; /* Adjust margin for better spacing */
         margin-left: 115px;
     }
     .all {
         display: flex;
         flex-direction: row;
-        margin-top: 50px;
+        margin-top: 20px;
         margin-left: 0px;
     }
-    .last{
-        margin-top: 7px;
+   
+    .facultyhead{
+        margin-top: 10vh;
     }
+    
 }

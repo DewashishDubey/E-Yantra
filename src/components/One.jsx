@@ -2,31 +2,29 @@ import Footer from "./Footer";
 import Nav from "./Nav";
 import pic1 from '../assets/Img1.jpeg';
 import "./One.css";
-
 function One() {
   return (
     <>  <div className="body">
         <Nav />
-        <h1 className="topname">FIRE BIRD V ATMEGA2560</h1>
-        <img className="topimg1" src={pic1} alt="" />
-
+        <h1 className="topnam">FIRE BIRD V ATMEGA2560</h1>
+        <img className="topimg" src={pic1} alt="" />
        <div className="allone">
         <div className="left">
-          <h2 className="titleone">
+          <h2 className="titleon">
           Microcontroller
           <br />  <br />  <br />  <br />
         Sensors   <br />  <br />  <br />  <br />
         Indicators  <br />  <br />  <br />
         Communication  <br />  <br />  <br />  <br />
-        Power  <br />  <br />  <br />  
-        Battery Life
+        <div className="pb">Power  <br />  <br />  <br />  
+        Battery Life</div>
           </h2>
        
         </div>
        <div className="line"></div>
         <div className="right">
 
-<p className="onemain">Atmel ATMEGA2560 as Master microcontroller (AVR architecture based
+<p className="onemai">Atmel ATMEGA2560 as Master microcontroller (AVR architecture based
 Microcontroller), Atmel ATMEGA8 as Slave microcontroller (AVR architecture based
 Microcontroller)
 <br />

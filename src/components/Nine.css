@@ -41,8 +41,9 @@
     font-size: 20px;
 }
 
-.titleone {
+.titleone{
     color: #0C4CA2;
+    margin-top: 100px;
 }
 
 .topname {
@@ -91,5 +92,8 @@
         display: flex;
         margin-bottom: 10vh;
 
+    }
+    .feat{
+        margin-top: 150px;
     }
 }

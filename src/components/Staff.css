@@ -1,15 +1,16 @@
 .simg{
   
-    margin-top: 30px;
+   
     height: 120px;
     width: 120px;
-    margin-left: 90px;
+    margin:auto;
     border-radius: 20px;
 }
 .scard{
+    padding-top: 30px;
     margin-top: 30px;
     height: 350px;
-    width: 200px;
+    width: 120px;
     background-color: #D9D9D9;
     border-radius: 20px;
     margin-bottom: 50px;
@@ -22,23 +23,21 @@
     height: 300px;
     width: 30px;
 }
-
 h5{
     margin-left: 50px;
 }
 .slider-container{
     margin-bottom: 50px;
-    margin-left: 30vh;
+    margin-left: 0vh;
 }
 .n{
-    background-image: linear-gradient(to right,#0C4CA2, rgb(0, 0, 0));
-border-radius: 5px;
+background-image: linear-gradient(to right,#0C4CA2, rgb(0, 0, 0));
 width: 10vh;
-height: .5vh;
-margin-top: 50px;
+height: .8vh;
+margin-top: 30px;
 }
 .sal{
-    margin-left: 45px;
+    margin-left: 60px;
 }
 @media (max-width: 600px) {
     .simg {

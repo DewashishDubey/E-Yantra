@@ -7,15 +7,17 @@ function Six() {
   return (
     <>  <div className="body">
         <Nav />
-        <h1 className="topname">P89V51RD2 Development Board</h1>
-        <img className="topimg1" src={pic1} alt="" />
+        <h1 className="topna">P89V51RD2 Development Board</h1>
+        <img className="topimg" src={pic1} alt="" />
 
        <div className="allone">
         <div className="left">
-          <h2 className="titleone">
+          <h2 className="titleon">
           Budget-Friendly Learning Platform
           <br />  <br />    
-          Essential Functionalities <br />  <br />  <br />
+          <div className="secondtitle">
+          Essential Functionalities 
+          </div><br />  <br />  <br />
           Expendability
          
                     </h2>
@@ -24,7 +26,7 @@ function Six() {
        <div className="line"></div>
         <div className="right">
 
-<p className="onemain"> Designed for beginners learning 8051 microcontrollers.
+<p className="onema"> Designed for beginners learning 8051 microcontrollers.
 Offers basic features like power supply, connectivity, programming, and controls.
 Made from double-sided PCB for robust construction<br />
 <br /><br />

@@ -27,6 +27,8 @@ function HeroC() {
       <h2>
         <span>For</span> Future Reference
       </h2>
+      <hr className="n" />
+
 
       <div className="slider-container">
         <Slider {...settings}>
@@ -40,10 +42,10 @@ function HeroC() {
             <img className="cimg" src={img3} alt="img3" />
           </div>
           <div className="ccard">
-            <img className="cimg" src={img4} alt="img4" />
+            <img className="cimg"  src={img4} alt="img4" />
           </div>
           <div className="ccard">
-            <img className="cimg" src={img5} alt="img5" />
+            <img className="cimg"  src={img5} alt="img5" />
           </div>
           
         

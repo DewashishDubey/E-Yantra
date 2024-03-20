@@ -16,10 +16,9 @@ body {
     height: 100%;
 }
 .divider{
-    height: 70px;
+    height: 60px;
     width: 2px;
-    margin-top: -5px;
-    margin: 10px;
+    margin-top: 25px;
     background-color: black;
 }
 .navbar {
@@ -44,7 +43,7 @@ body {
 }
 
 #logoim{
-    margin-left: 5px;
+    margin-left: 20px;
 }
 .nav-elements ul {
     display: flex;
@@ -98,7 +97,9 @@ body {
     .container {
         padding: 0 10px;
     }
-
+    .divider{
+        height: 40px;
+    }
     .navbar {
         height: 60px;
     }
@@ -114,13 +115,15 @@ body {
     }
 
     .nav-elements ul a {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .hamburger {
         display: flex;
     }
-
+    #logoim{
+        margin-left: 20px;
+    }
     .nav-elements {
         display: none;
         flex-direction: column;

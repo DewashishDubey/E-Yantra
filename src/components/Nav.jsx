@@ -35,7 +35,7 @@ function Nav() {
           <div className="logo">
             <NavLink to={'/'}>
             <img
-              src={logoimg}
+              src={logoimg} 
               className="logoimg"
               alt="Description of the Image"
             />
