@@ -15,11 +15,11 @@ function Three() {
             Description
             <br />  <br />  <br />  <br />
             <div className="nh" >Processors <br />  <br />
-              Wireless Connectivity  <br />  <br />  Memory <br />  <br />  <br />  
+              Wireless Connectivity  <br />  <br /> <div className="mr"> Memory <br />  <br />  <br />  
             Embedded Flash <br />  <br />   
         Peripheral Input/Output<br />  <br /> <br /> <br />  </div>
      
-          Security <br /><br /> Power Efficiency 
+          Security <br /><br /> Power Efficiency </div>
         </h2>
 
       </div>

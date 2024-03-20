@@ -16,10 +16,10 @@ function Ten() {
                         Microcontroller Specifications
                         <br />  <br />  <br />  <br /><br />  <br />
 
-                       <div className="lpdc">LaunchPad Design and Connectivity</div>   <br />  <br /><br />  <br /><br />  <br />
+                       <div className="lpdc">LaunchPad Design and Connectivity  <br />  <br /><br />  <br /><br />  <br />
                         Software Development
                         Support <br /><br /><br />  <br /><br />  <br />
-                    <div className="fea"> Features</div>
+                     Features</div> 
                     </h2>
 
                 </div>
