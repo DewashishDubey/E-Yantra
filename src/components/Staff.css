@@ -14,14 +14,13 @@
     background-color: #D9D9D9;
     border-radius: 20px;
     margin-bottom: 50px;
-    margin-left: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .space{
     height: 300px;
-    width: 30px;
+    width: 10px;
 }
 h5{
     margin-left: 50px;
