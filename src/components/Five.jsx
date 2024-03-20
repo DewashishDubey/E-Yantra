@@ -7,26 +7,25 @@ function Five() {
   return (
     <>  <div className="body">
         <Nav />
-        <h1 className="topname">ATmega2560 Development Board</h1>
-        <img className="topimg1" src={pic1} alt="" />
+        <h1 className="topna">ATmega2560 Development Board</h1>
+        <img className="topimg" src={pic1} alt="" />
 
        <div className="allone">
         <div className="left">
-          <h2 className="titleone">
-          Microcontroller and Memory
-          <br />  <br />    
-          Versatile Application Support <br />  <br />  
-          High-Speed USB Interface  <br />  <br /> <br />
-          UART Boot Loader <br />  <br />  <br />  <br />
-          On-Board Peripherals 
+          <h2 className="titleon">
          
+          Microcontroller Development Board <br />  <br />  
+          <div className="niche">
+          Expandable Functionality  <br />  <br /> <br />
+          Durable Construction <br />  <br />  <br />  <br />
+          Add-On Modules for P89V51RD2 Development Board      </div>   
                     </h2>
        
         </div>
        <div className="line"></div>
         <div className="right">
 
-<p className="onemain"> This board is designed to learn and experiment with the 8051 microcontroller. It provides a platform with essential features for beginners, including power supply, connectivity options (serial, connectors), programming capabilities, and basic controls (reset, power switch).
+<p className="onemai"> This board is designed to learn and experiment with the 8051 microcontroller. It provides a platform with essential features for beginners, including power supply, connectivity options (serial, connectors), programming capabilities, and basic controls (reset, power switch).
 <br />
 <br /><br />
 

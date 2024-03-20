@@ -15,7 +15,7 @@ import "./Galleyphoto.css";
 const Galleryphoto = () => {
   return (
     <>
-      <h1><span>Gallery</span> </h1>
+      <h2 className='galleryhead'><span>Gallery</span> </h2>
       <hr className="n2"/>
 
       <div className="allph">

@@ -9,7 +9,11 @@ import './Mfaculty.css'
 const Mfaculty = () => {
   return (
     <>
+      <h2 className='facultyhead'>Faculty </h2>
+      <hr className="n" />
+
       <div className="all">
+        
         <div className="first" id='f'>
           Faculty Name
           Designation
@@ -34,7 +38,7 @@ const Mfaculty = () => {
           <br />
           <br />
           <br />
-          <br />
+        
           <div className="last">
           Faculty Name
           Designation
@@ -42,7 +46,7 @@ const Mfaculty = () => {
           <br />
           <br />
           <br />
-          <br />
+         
           <div className="last">
           Faculty Name
           Designation
@@ -50,7 +54,7 @@ const Mfaculty = () => {
           <br />
           <br />
           <br />
-          <br />
+         
           <div className="last">
           Faculty Name
           Designation

@@ -26,7 +26,7 @@ h2 span{
 .card:hover {
     transform: translateY(-5px); 
 }
-.more {
+.moe {
     display: inline-block;
     background-color: #0C4CA2;
     border-radius: 50px;
@@ -54,13 +54,13 @@ h2 span{
     height: 40vh;
     
 }
-.new2{
-    border: 5px solid;
-    color: #0C4CA2;
-    border-radius: 5px;
-    width:50vh
-}
-@media (max-width: 600px) {
+.n{
+    background-image: linear-gradient(to right,#0C4CA2, rgb(0, 0, 0));
+    width: 10vh;
+    height: .8vh;
+    margin-top: 30px;
+    }
+@media (max-width: 576px) {
     .card {
         width: 90vw; /* Adjust card width for better fit on smaller screens */
         height: 40vh; /* Adjust card height for better proportion on smaller screens */
@@ -68,9 +68,8 @@ h2 span{
         margin-right: 15vw; /* Adjust margin for centering on smaller screens */
     }
 
-    .more {
-        margin-left: 30px; /* Adjust margin for centering on smaller screens */
-        margin-top: 4%; /* Adjust margin for better spacing on smaller screens */
+    .moe{
+        margin-left: 38vw;
     }
 
     .homecard {
@@ -90,5 +89,11 @@ h2 span{
     .more {
         margin-left: 5vw; /* Adjust margin left for centering on smaller screens */
         margin-top: 4vh; /* Adjust margin top for spacing on smaller screens */
+    }
+    #hid{
+        display: none;
+    }
+    #hid2{
+        display: none;
     }
 }

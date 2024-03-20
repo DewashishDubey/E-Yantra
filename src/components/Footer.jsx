@@ -23,12 +23,12 @@ function Footer() {
           +91 44 27417777
           <br />
           <img className='tele' src={picon} alt='' />
-          +080 69087000 <br />
+          +91 9443529372
+          <br />
           <img className='tele' src={micon} alt='' />
-          infodesk@srmist.edu.in
+          minur@srmist.edu.in
         </div>
       </div>
-
       <div className="lfooter">
         <div className="text ">Page Updated: 08/03/2024</div>
         <div className=" text">
@@ -48,5 +48,4 @@ function Footer() {
     </>
   )
 }
-
 export default Footer;

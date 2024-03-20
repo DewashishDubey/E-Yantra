@@ -6,6 +6,9 @@
     flex-wrap: nowrap;
 
 }
+.nicht{
+    margin-top: 50px;
+}
 
 .body {
     overflow-x: hidden;
@@ -40,8 +43,9 @@
     font-size: 20px;
 }
 
-.titleone {
+.titleon8 {
     color: #0C4CA2;
+    margin-top: -1px;
 }
 
 .topname {
@@ -93,5 +97,8 @@
     .allone {
         display: block; /* Change display to block for better stacking on smaller screens */
         margin-bottom: 10vh;
+    }
+    .nicht{
+        margin-top: 10px;
     }
 }

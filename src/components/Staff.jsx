@@ -43,7 +43,7 @@ function Staff() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
-        }
+        } 
       }
     ]
   };
@@ -87,7 +87,10 @@ function Staff() {
    
            <div className="scard">
           <img className="simg" src={img5} />
-        <h5>Dr. M. Suganiya<br />Assistant Professor<br/>suganiym@srmist.edu.in</h5>
+          <div className="sal">
+          <h5>Dr. M. Suganiya<br />Assistant Professor<br/>suganiym@srmist.edu.in</h5>
+          </div>
+        
               </div>
       
        <div className="space"></div>

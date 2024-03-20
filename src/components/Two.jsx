@@ -2,21 +2,18 @@ import Footer from "./Footer";
 import Nav from "./Nav";
 import pic1 from '../assets/Img2.jpg';
 import "./Two.css";
-
 function Two() {
   return (
     <>  <div className="body">
         <Nav />
-        <h1 className="topname">ESP8266 Development Board</h1>
-        <img className="topimg1" src={pic1} alt="" />
-
+        <h1 className="topnam">ESP8266 Development Board</h1>
+        <img className="topimg" src={pic1} alt="" />
        <div className="allone">
         <div className="left">
-          <h2 className="titleone">
+          <h2 className="titleone1">
           Versatile Wi-Fi Solution
           <br />  <br />  <br />  <br />
           Flexible Application Modes   <br />  <br />  <br />  <br />
-        
           Comprehensive Integration and SDK Support  
           </h2>
        
@@ -24,7 +21,7 @@ function Two() {
        <div className="line"></div>
         <div className="right">
 
-<p className="onemain">
+<p className="onemai">
     ESP8266EX addresses user demands for efficient power usage, compact design, and reliable performance in the Internet of Things (IoT) industry, providing a highly integrated Wi-Fi System-on-Chip (SoC) solution.
 
 <br />

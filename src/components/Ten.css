@@ -61,7 +61,7 @@
 
     .line {
         border-left: 6px solid #0C4CA2;
-        height: 850px;
+        height:180vh;
         border-radius: 10px;
         margin-left: 0;
         margin-right: 0;
@@ -91,5 +91,11 @@
         display: flex;
         margin-bottom: 10vh;
 
+    }
+    .lpdc{
+        margin-top: 200px;
+    }
+    .fea{
+        margin-top: 0px;
     }
 }
