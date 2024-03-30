@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
 import './App.css'
 import Home from './components/Home'
 import Comp from './components/Comp'
@@ -16,6 +15,9 @@ import Eight from './components/Eight'
 import Nine from './components/Nine'
 import Ten from  './components/Ten'
 import Gallery from './components/Gallery'
+import Projects from './components/Projects'
+import Completed from './components/Completed'
+import Ongoing from './components/Ongoing'
 function App() {
   return (
     <>
@@ -26,6 +28,9 @@ function App() {
           <Route path='/staff' element={<Staff />} />
           <Route path='/gallery' element={<Gallery/>}/>
           <Route path='/faculty' element={<Faculty/>}/>
+          <Route path='/project' element={<Projects/>}/>
+          <Route path='/ongoing' element={<Ongoing/>}/>
+          <Route path='/completed' element={<Completed/>}/>
           <Route path='/One' element={<One/>}/>
           <Route path='/Two' element={<Two/>}/>
           <Route path='/Three' element={<Three/>}/>

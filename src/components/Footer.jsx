@@ -1,5 +1,5 @@
 import './Footer.css';
-import srmf from '../assets/srmf.png';
+import srmf from '../assets/srmf.jpg';
 import eyantraf from '../assets/eyantraf.png';
 import fbicon from '../assets/fb.png';
 import xicon from '../assets/xlogo.png';
@@ -30,7 +30,7 @@ function Footer() {
         </div>
       </div>
       <div className="lfooter">
-        <div className="text ">Page Updated: 08/03/2024</div>
+        <div className="text ">Page Updated: 30/03/2024</div>
         <div className=" text">
           Privacy Policy
         </div>
@@ -44,6 +44,12 @@ function Footer() {
           <a href="https://www.linkedin.com/company/srm-ist-chennai"><img className='logos' src={liicon} alt="" /></a>
           <a href="https://www.youtube.com/user/SRMeducation"><img className='logos' src={yticon} alt="" /></a>
         </div>
+      </div>
+      <div id='rssBlock'>
+        <h3 className='footerh3'>Designed by:</h3>
+   <p className="cnnContents">
+       <span className="marqueeStyle">Priyanshu Arora  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  Anurag Dutta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Ashish Shiv </span>
+      </p>
       </div>
     </>
   )

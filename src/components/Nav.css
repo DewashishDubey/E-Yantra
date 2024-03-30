@@ -45,6 +45,7 @@ body {
 #logoim{
     margin-left: 20px;
 }
+
 .nav-elements ul {
     display: flex;
     justify-content: space-between;
@@ -68,7 +69,11 @@ body {
     font-weight: 500;
     position: relative;
 }
-
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust the alpha value (last parameter) to change the level of translucency */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    border-radius: 50px;
+}
 .nav-elements ul a.active::after {
     content: '';
     position: absolute;
@@ -92,6 +97,37 @@ body {
     height: 3px;
     background-color: #0C4CA2;
 }
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: none;
+    z-index: 100;
+}
+
+.dropdown-menu.open {
+    display: block;
+}
+
+.dropdown-menu li {
+    margin-bottom: 10px;
+}
+
+.dropdown-menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    color: #0C4CA2;
+}
 
 @media (max-width: 768px) {
     .container {
@@ -107,7 +143,7 @@ body {
     .logoimg {
         width: 50px;
         height: 50px;
-        margin-left: -30px;
+        margin-left: -15px;
     }
 
     .nav-elements ul li:not(:last-child) {
@@ -126,22 +162,30 @@ body {
     }
     .nav-elements {
         display: none;
-        flex-direction: column;
         position: absolute;
-        top: 60px; /* Adjust as needed */
+        top: 60px; 
         left: 0;
         background-color: #feffff;
         width: 100%;
         padding: 10px;
         box-sizing: border-box;
-        transition: all 0.3s ease;
+        border-radius: 50px;
+        height: 80px;
+        transition: all 2s ease;
+        margin-top: 5px;
     }
 
     .nav-elements.active {
+        transition: all 2s ease;
         display: flex;
     }
     .logo{
         margin-left: 5vw;
+    }
+    .navbar.scrolled {
+        background-color: rgba(255, 255, 255, 0.9); /* Adjust the alpha value (last parameter) to change the level of translucency */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+        border-radius: 50px;
     }
 }
 .nav-elements ul a:hover {

@@ -97,3 +97,41 @@ h2 span{
         display: none;
     }
 }
+@media (max-width: 1024px) {
+    .card {
+        width: 30vh; /* Adjust card width for ASUS devices */
+        height: 45vh; /* Adjust card height for ASUS devices */
+        margin-left: 13vh; /* Adjust margin for centering on ASUS devices */
+    }
+
+    .moe {
+        margin-left: 40vw; /* Adjust margin for centering on ASUS devices */
+    }
+
+    .homecard {
+        margin-left: 15%; /* Adjust margin for better positioning on ASUS devices */
+        width: 70%; /* Adjust image width for ASUS devices */
+    }
+
+    .new2 {
+        width: 80vw; /* Adjust width for better fit on ASUS devices */
+    }
+
+    h2 {
+        font-size: 1.8em; /* Adjust font size for better readability on ASUS devices */
+        margin-top: 25px; /* Adjust margin top for spacing on ASUS devices */
+    }
+
+    .moe {
+        margin-left: 45vw; /* Adjust margin left for centering on ASUS devices */
+        margin-top: 6vh; /* Adjust margin top for spacing on ASUS devices */
+    }
+
+    #hid {
+        display: none; /* Hide element with id 'hid' on ASUS devices */
+    }
+    
+    #hid2 {
+        display: none; /* Hide element with id 'hid2' on ASUS devices */
+    }
+} 
