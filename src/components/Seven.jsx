@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import Nav from "./Nav";
 import pic1 from '../assets/Img7.jpg';
-import "./Seven.css";
+import "./One.css";
 
 function Seven() {
   return (
@@ -10,19 +10,15 @@ function Seven() {
         <h1 className="topna">Raspberry-Pi 3 model B+</h1>
         <img className="topimg" src={pic1} alt="" />
 
-       <div className="allone">
-        <div className="left">
-          <h2 className="titleone">
+     
+          <h2 >
           About the board
         
          
                     </h2>
-       
-        </div>
-       <div className="line"></div>
-        <div className="right">
+    
 
-<p className="onema"> Powered by a 64-bit quad-core ARM Cortex-A53 CPU running at 1.4 GHz.   <br />
+<p > Powered by a 64-bit quad-core ARM Cortex-A53 CPU running at 1.4 GHz.   <br />
 
 •	Features 1GB of LPDDR2 RAM for smooth multitasking and running applications.  <br />
 
@@ -51,8 +47,7 @@ Powered by a 5V micro USB power supply (2.5A or higher recommended).  <br />
 
 Widely adopted in educational settings and popular among hobbyists and makers for diverse projects such as home automation, media centers, robotics, or IoT projects.
 </p>
-        </div>
-        </div>
+       
         <Footer />
         </div>
     </>

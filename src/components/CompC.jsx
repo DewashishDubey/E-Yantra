@@ -27,9 +27,11 @@ const CompC = () => {
   return (
     <>
       <div className="whole">
-        <h2><span>Development </span>Boards </h2>
+        <div className="o"> 
+         <h2><span>Development </span>Boards </h2>
         <hr className="n" />
-
+</div>
+      
         <input
           className="search"
           type="text"

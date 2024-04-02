@@ -18,7 +18,7 @@ function Staff() {
     slidesToScroll: 4,
     initialSlide: 1,
     autoplay: true,
-    autoplaySpeed: 300, 
+    autoplaySpeed: 300,
     cssEase: "linear",
     responsive: [
       {
@@ -43,61 +43,60 @@ function Staff() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1
-        } 
+        }
       }
     ]
   };
   return (<>
     <div id="Staff">
-              <h2><span>Faculty</span> </h2>
-          <hr className="n"/>
+      <h2><span>Faculty</span> </h2>
+      <hr className="n" />
 
-    <div className="slider-container">
-      <Slider {...settings}>
-        <div className="scard">
+      <div className="slider-container">
+        <Slider {...settings}>
+          <div className="scard">
             <img className="simg" src={img1} />
             <div className="sal">
-              <h5>Dr.R.I.Minu<br />Professor<br/>minur@srmist.edu.in</h5>
-              </div>
+              <h5>Dr.R.I.Minu<br />Professor<br />minur@srmist.edu.in</h5>
+            </div>
 
-        </div>
-       <div className="space"></div>
-           <div className="scard">
-          <img className="simg" src={img2} />
-        <div className="sal">
-              <h5>Dr.J.Kalaivani<br />Associate Professor<br/>kalaivaj@srmist.edu.in</h5>
-              </div>
-        </div>
-        <div className="space"></div>
-          <div className="scard">
-          <img className="simg" src={img3} />
-            <div className="sal">
-              <h5>Dr. Kirubanantham P<br />Assistant Professor<br/>kirubanp2@srmist.edu.in</h5>
-              </div>
-       
-        </div>
-        <div className="space"></div>
-          <div className="scard">
-          <img className="simg" src={img4} />
-        <div className="sal">
-              <h5>Dr.C.AshokKumar<br />Assistant Professor<br/>ashokkuc@srmist.edu.in</h5>
-              </div>
-        </div>
-     <div className="space"></div>
-   
-           <div className="scard">
-          <img className="simg" src={img5} />
-          <div className="sal">
-          <h5>Dr. M. Suganiya<br />Assistant Professor<br/>suganiym@srmist.edu.in</h5>
           </div>
-        
-              </div>
-      
-       <div className="space"></div>
-      </Slider>
+          <div className="space"></div>
+          <div className="scard">
+            <img className="simg" src={img2} />
+            <div className="sal">
+              <h5>Dr.J.Kalaivani<br />Associate Professor<br />kalaivaj@srmist.edu.in</h5>
+            </div>
+          </div>
+          <div className="space"></div>
+          <div className="scard">
+            <img className="simg" src={img3} />
+            <div className="sal">
+              <h5>Dr. Kirubanantham P<br />Assistant Professor<br />kirubanp2@srmist.edu.in</h5>
+            </div>
+          </div>
+          <div className="space"></div>
+          <div className="scard">
+            <img className="simg" src={img4} />
+            <div className="sal">
+              <h5>Dr.C.AshokKumar<br />Assistant Professor<br />ashokkuc@srmist.edu.in</h5>
+            </div>
+          </div>
+          <div className="space"></div>
+
+          <div className="scard">
+            <img className="simg" src={img5} />
+            <div className="sal">
+              <h5>Dr. M. Suganiya<br />Assistant Professor<br />suganiym@srmist.edu.in</h5>
+            </div>
+
+          </div>
+
+          <div className="space"></div>
+        </Slider>
       </div>
-      </div>
-    </>
+    </div>
+  </>
   )
 }
 

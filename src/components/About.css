@@ -33,6 +33,7 @@
     width: 60vw;
     display: flex;
     align-items: center;
+    font-size: 15px;
 }
 .obj{
     height: 100px;

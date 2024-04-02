@@ -11,103 +11,86 @@ const Mfaculty = () => {
     <>
       <h2 className='facultyhead'>Faculty </h2>
       <hr className="n" />
+      <div className="final">
 
-      <div className="all">
+        <div className="all">
+          <div className="le">
+            Faculty Name :<br /> Designation :<br /> Email Id :
+          </div>
+          <div className="mi">
+            Dr. R. I. Minu<br />
+            Professor<br /> minur@srmist.edu.in
+          </div>
+  
+            <img  className='im'src={S1} alt="" />
+          
+        </div>
+
+
+        <div className="all">
+          <div className="le">
+            Faculty Name :<br /> Designation :<br /> Email Id :
+          </div>
+          <div className="mi">
+          Dr. J. Kalaivani <br />Associate  Professor <br /> kalaivaj@srmist.edu.in
+          </div>
+  
+            <img  className='im'src={S2} alt="" />
+          
+        </div>
+
+
+        <div className="all">
+          <div className="le">
+            Faculty Name :<br /> Designation :<br /> Email Id :
+          </div>
+          <div className="mi">
+          Dr Kirubanantham <br />Assistant Professor <br />kirubanp2@srmist.edu.in
+          </div>
+  
+            <img  className='im'src={S3} alt="" />
+          
+        </div>
+
+
         
-        <div className="first" id='f'>
-          Faculty Name
-          Designation
-          Email Id
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          Faculty Name
-          Designation
-          Email Id
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <div className="last">
-          Faculty Name
-          Designation
-          Email Id</div>
-          <br />
-          <br />
-          <br />
-        
-          <div className="last">
-          Faculty Name
-          Designation
-          Email Id</div>
-          <br />
-          <br />
-          <br />
-         
-          <div className="last">
-          Faculty Name
-          Designation
-          Email Id</div>
-          <br />
-          <br />
-          <br />
-         
-          <div className="last">
-          Faculty Name
-          Designation
-          Email Id</div>
+        <div className="all">
+          <div className="le">
+            Faculty Name :<br /> Designation :<br /> Email Id :
+          </div>
+          <div className="mi">
+          Dr. C. AshokKumar <br />Assistant Professor<br /> ashokkuc@srmist.edu.in
+          </div>
+  
+            <img  className='im'src={S4} alt="" />
+          
         </div>
-        <div className="linef"></div>
-        <div className="first" id='t'>
-          Dr. R. I. Minu <br />
-          Professor
-          minur@srmist.edu.in
-          <br />
-          <br />
-          <br />
-          <br /><br />
-          Dr. J. Kalaivani
-          Associate Professor
-          kalaivaj@srmist.edu.in
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          Dr Kirubanantham
-          Assistant Professor
-          kirubanp2@srmist.edu.in    <br />
-          <br />
-          <br />
-          <br />
-          Dr. C. AshokKumar
-          Assistant Professor
-          ashokkuc@srmist.edu.in    <br />
-          <br />
-          <br />
-          <br />
-          Dr. M. Suganiya
-          Assistant Professor
-          suganiym@srmist.edu.in    <br />
-          <br />
-          <br />
-          <br />
-          Dr. Angayarkanni
-          Assistant Professor
-          angayarv@srmist.edu.in
+        <div className="all">
+          <div className="le">
+            Faculty Name :<br /> Designation :<br /> Email Id :
+          </div>
+          <div className="mi">
+          Dr. M. Suganiya <br />Assistant Professor<br /> suganiym@srmist.edu
+          </div>
+  
+            <img  className='im'src={S5} alt="" />
+          
         </div>
-        <div className="first" id='r'>
-          <img className="mu" src={S1} alt="" />
-          <img className="mu" src={S2} alt="" />
-          <img className="mu" src={S3} alt="" />
-          <img className="mu" src={S4} alt="" />
-          <img className="mu" src={S5} alt="" />
-          <img className="mu" src={S6} alt="" />
+        <div className="all">
+          <div className="le">
+            Faculty Name :<br /> Designation :<br /> Email Id :
+          </div>
+          <div className="mi">
+          Dr. Angayarkanni <br />Assistant Professor <br />angayarv@srmist.edu.in
+          </div>
+  
+            <img  className='im'src={S6} alt="" />
+          
         </div>
+       
+
       </div>
+
     </>
   )
 }
