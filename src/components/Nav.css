@@ -15,12 +15,14 @@ body {
     align-items: center;
     height: 100%;
 }
-.divider{
+
+.divider {
     height: 60px;
     width: 2px;
     margin-top: 25px;
     background-color: black;
 }
+
 .navbar {
     height: 80px;
     background-color: #ffffff;
@@ -34,27 +36,24 @@ body {
     width: 70px;
     height: 70px;
     margin: 20px;
-   
-    
-}
 
-.logo{
+
+}
+.logo {
     display: flex;
 }
-
-#logoim{
+#logoim {
     margin-left: 20px;
 }
-
 .nav-elements ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     list-style-type: none;
 }
 .nav-elements ul li:not(:last-child) {
     margin-right: 60px;
 }
-
 .nav-elements ul a {
     font-style: Bold;
     font-size: 16px;
@@ -62,7 +61,6 @@ body {
     color: black;
     text-decoration: none;
 }
-
 .nav-elements ul a.active {
     font-style: Bold;
     color: #0C4CA2;
@@ -70,8 +68,10 @@ body {
     position: relative;
 }
 .navbar.scrolled {
-    background-color: rgba(255, 255, 255, 0.9); /* Adjust the alpha value (last parameter) to change the level of translucency */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Adjust the alpha value (last parameter) to change the level of translucency */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Optional: Add shadow for better visibility */
     border-radius: 50px;
 }
 .nav-elements ul a.active::after {
@@ -97,6 +97,7 @@ body {
     height: 3px;
     background-color: #0C4CA2;
 }
+
 .dropdown-menu {
     position: absolute;
     top: 100%;
@@ -120,7 +121,7 @@ body {
 .dropdown-menu a {
     color: black;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 5px;
     font-weight: 400;
     display: block;
 }
@@ -133,9 +134,11 @@ body {
     .container {
         padding: 0 10px;
     }
-    .divider{
+
+    .divider {
         height: 40px;
     }
+
     .navbar {
         height: 60px;
     }
@@ -147,27 +150,29 @@ body {
     }
 
     .nav-elements ul li:not(:last-child) {
-        margin-right: 30px;
+        margin-right: 10px;
     }
 
     .nav-elements ul a {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .hamburger {
         display: flex;
     }
-    #logoim{
+
+    #logoim {
         margin-left: 20px;
     }
+
     .nav-elements {
         display: none;
         position: absolute;
-        top: 60px; 
+        top: 60px;
         left: 0;
         background-color: #feffff;
         width: 100%;
-        padding: 10px;
+        padding: 5px;
         box-sizing: border-box;
         border-radius: 50px;
         height: 80px;
@@ -178,16 +183,25 @@ body {
     .nav-elements.active {
         transition: all 2s ease;
         display: flex;
+       flex-wrap: wrap;
     }
-    .logo{
+
+    .logo {
         margin-left: 5vw;
     }
+
     .navbar.scrolled {
-        background-color: rgba(255, 255, 255, 0.9); /* Adjust the alpha value (last parameter) to change the level of translucency */
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+        background-color: rgba(255, 255, 255, 0.9);
+        /* Adjust the alpha value (last parameter) to change the level of translucency */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        /* Optional: Add shadow for better visibility */
         border-radius: 50px;
     }
-}
-.nav-elements ul a:hover {
-    color: #0C4CA2; 
+
+    .nav-elements ul a:hover {
+        color: #0C4CA2;
+    }
+    .dd{
+        margin-left: -50px;
+    }
 }

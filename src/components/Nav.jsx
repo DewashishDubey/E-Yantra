@@ -4,6 +4,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import logoimg from '../assets/Logo.png';
 import logoimg1 from '../assets/Logo1.png';
 import './Nav.css';
+import DropdownMenu from './DropdownMenu';
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,30 +27,25 @@ function Nav() {
   useEffect(() => {
     const handleScroll = () => {
       const offset = window.scrollY;
-      if (offset > 100) { 
+      if (offset > 100) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
       }
     };
     window.addEventListener('scroll', handleScroll);
-    
-    // Cleanup function
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+    window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
   useEffect(() => {
     // Add event listener for clicks on document
     document.addEventListener('click', closeDropdown);
-
     // Cleanup function
     return () => {
       document.removeEventListener('click', closeDropdown);
     };
-  }, [isDropdownOpen]); // Add isDropdownOpen as a dependency to the useEffect
-
+  }, [isDropdownOpen]);
   return (
     <>
       <nav className={`navbar ${isMenuOpen ? 'active' : ''} ${isScrolled ? 'scrolled' : ''}`}>
@@ -57,7 +53,7 @@ function Nav() {
           <div className="logo">
             <NavLink to={'/'}>
               <img
-                src={logoimg} 
+                src={logoimg}
                 className="logoimg"
                 alt="Description of the Image"
               />
@@ -75,13 +71,12 @@ function Nav() {
           <div className={`nav-elements ${isMenuOpen ? 'active' : ''}`}>
             <ul>
               <li>
-                <NavLink to='/'>
-                  About Us
-                </NavLink>
+                <div className="dd"><DropdownMenu /></div>
+                
               </li>
               <li>
-                <NavLink to="/faculty" onClick={toggleMenu}>
-                  Faculty
+                <NavLink to="/achivements" onClick={toggleMenu}>
+                  Achivements
                 </NavLink>
               </li>
               <li>
@@ -89,14 +84,13 @@ function Nav() {
                   Components
                 </NavLink>
               </li>
-              
               <li>
-                <NavLink to="/gallery" onClick={toggleMenu}>
-                  Gallery
+                <NavLink to="/offer" onClick={toggleMenu}>
+                  What we offer
                 </NavLink>
-              </li> 
-              <li> 
-                <a href="#footer"  onClick={(e) => { e.preventDefault(); toggleMenu(); }}>
+              </li>
+              <li>
+                <a href="#footer" onClick={(e) => { e.preventDefault(); toggleMenu(); }}>
                   <ScrollLink to="footer" spy={true} smooth={true} duration={900}>
                     Contact Us
                   </ScrollLink>
@@ -106,8 +100,8 @@ function Nav() {
                 <NavLink to="/project" onClick={toggleMenu}>
                   Project
                 </NavLink>
-              </li> 
-              
+              </li>
+
             </ul>
           </div>
           <div className="hamburger" onClick={toggleMenu}>

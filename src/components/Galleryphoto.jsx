@@ -14,7 +14,9 @@ import img13 from "../assets/C13.jpg";
 import img14 from "../assets/C14.jpg";
 import img15 from "../assets/C15.jpg";
 import img16 from "../assets/C16.jpg";
-
+import videofile from "../assets/C17.mp4";
+import videofile2 from "../assets/C18.mp4";
+import videofile3 from "../assets/C19.mp4";
 import img20 from "../assets/C20.jpg";
 import img21 from "../assets/C21.jpg";
 
@@ -25,35 +27,47 @@ const Galleryphoto = () => {
     <>
       <h2 className='galleryhead'><span>Gallery</span> </h2>
       <hr className="n2"/>
-
+      <img className='bgalleryimg' src={img2} alt="" />
       <div className="allph">
         <img className='Galleryimg' src={img3} alt="" />
         <img className='Galleryimg' src={img4} alt="" />
         <img className='Galleryimg' src={img5} alt="" />
         <img className='Galleryimg' src={img6} alt="" />
       </div>
-      <img className='bgalleryimg' src={img2} alt="" />
+      <video className='bgalleryimg'  width="400" controls loop muted>
+        <source src={videofile} type="video/mp4"/>
 
+      </video>
+      
       <div className="allph">
         <img className='Galleryimg' src={img7}  alt="" />
         <img className='Galleryimg' src={img9}  alt="" />
         <img className='Galleryimg' src={img10} alt="" />
         <img className='Galleryimg' src={img11} alt="" />
       </div>
-      <img className='bgalleryimg' src={img8} alt="" />
+     
+      <video className='bgalleryimg'  width="400" controls loop muted>
+        <source src={videofile2} type="video/mp4"/>
+
+      </video>
     <div className="allph">
     <img className='Galleryimg' src={img12} alt="" />
     <img className='Galleryimg' src={img13} alt="" />
     <img className='Galleryimg' src={img14} alt="" />
     <img className='Galleryimg' src={img15} alt="" />
     </div>
-    <img className='bgalleryimg' src={img2} alt="" />
+    
+    <img className='bgalleryimg' src={img8} alt="" />
 <div className="allph">
-<img className='bgalleryimg' src={img16} alt="" />
-<img className='bgalleryimg' src={img20} alt="" />
-<img className='bgalleryimg' src={img21} alt="" />     
-</div>
+<img className='Galleryimg' src={img16} alt="" />
+<img className='Galleryimg' src={img20} alt="" />
+<img className='Galleryimg' src={img21} alt="" />     
 
+</div>
+<video   className='bgalleryimg' width="400" controls loop muted>
+        <source src={videofile3} type="video/mp4"/>
+
+      </video>
 
 
     </>

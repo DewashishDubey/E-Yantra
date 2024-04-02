@@ -1,182 +1,101 @@
 .hero {
+    display: flex;
     background-size: cover;
     background-color: #0C4CA2;
-    height: calc(100vh - 80px); /* Adjusted height to accommodate margin-top */
     margin-top: 80px;
-    overflow-y: hidden; /* Added to hide horizontal overflow content */
-    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    flex-direction: column;
 }
-.about {
-    color: gold;
-    font-size: 40px;
+.any{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: -60px;
+}
+.about{
+    height: 100px;
     text-align: center;
-    margin-left: 70vh;
+    font-size: 50px;
+    color: gold;
+}
+.heroimg{
+    height: 50vh;
+    width: 50vh;
+    margin-bottom: 100px;
+}
+.aboutcard{
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 50px;
+    height: 30vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
 }
 .obj{
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
     color: gold;
-    font-size: 40px;
-    text-align: center;
-    height: 20px;
-    margin-left: 350px;
-    z-index: 99;
-    margin-top: -20px;
+    margin-top: -60px;
 }
-.any {
+.ndall{
     display: flex;
-    flex-wrap: wrap;
-}
-.aboutcard {
-    background-color: #D9D9D9;
-    height: 25vh;
-    width: 100vh;
-    border-radius: 40px;
-    box-shadow: 5px 5px 18px 0px #323232;
-    margin-left: 40vh;
-}
-.abouttext {
-    text-align: center;
-    padding: 20px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
 #nimg{
     height: 40vh;
-    width: 50vh;
-    display: inline;
-   margin-left: 230px;
-   margin-bottom: 40px;
+    width: 40vh;
+    margin-left: 20px;
 }
-.heroimg {
+.mission{
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: gold;
+}
+.rdall{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.miss{
     height: 40vh;
     width: 40vh;
-    margin-top: -60px;
-    display: inline;
-    margin-left: 80px;
-    border-radius: 100px;
-    margin-left: 8rem;
+    margin-right: 60px;
+    margin-bottom: 20px;
 }
-#abouttext1{
-    background-color: #D9D9D9;
-    height: 25vh;
-    width: 100vh;
-    border-radius: 40px;
-    box-shadow: 5px 5px 18px 0px #323232;
-    margin-left: -450px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
-@media screen and (max-width: 768px) {
-    .about {
-        font-size: 30px;
-        margin-left: 0;
-    }
-    .aboutcard {
-        margin-left: 0;
-        margin-top: 20px;
-    }
-    .abouttext {
-        text-align: center;
-        padding: 2px;
+
+
+@media (max-width: 576px) {
+    .any ,.ndall ,.rdall{
+        width: 100vw;
     }
     .heroimg {
-        margin-left: 0;
+        height: 20vh;
+        width: 20vh;
     }
-    .hero{
-    
-        width: 100%;
-    }
-}
-
-
-@media screen and (max-width: 576px) {
-    .about {
-        font-size: 24px;
-    }
-    .aboutcard {
-        width: 80vw;
-        padding-top: 15px;
-        margin-left: 0;
-    }
-    .abouttext {
-        text-align: center;
-        padding: 0px;
+    .aboutcard{
         font-size: 10px;
     }
-    #abouttext1 {
-        height: 190px;
-        width: 50%;
-        margin-left: 0.5vh;
+    #nimg{
+        height: 20vh;
+        width: 20vh;
     }
-    .heroimg {
-        height: 200px;
-        width: 30%;
-        margin: 0 auto;
+    .miss{
+        height: 20vh;
+        width: 20vh;
     }
-    #nimg {
-        height: 150px;
-        width: 30%;
-        margin: 10px auto;
-        margin-top: 10vh;
+    .obj{
+        margin-top: 0px;
     }
-    .aboutcard {
-        height: 200px;
-        width: 70%;
-        font-size: 10px;
+    .any{
+        margin-top: 0px;
     }
-    .obj {
-        font-size: 24px;
-        margin-left: 18vw;
-        margin-top: 6vw;
-        margin-bottom: -2vh;
-    }
-    .hero {
-        width: 100%;
-        height: 600px;
-    }
+
 }
-@media screen and (max-width: 1024px) {
-    .about {
-        font-size: 36px; /* Adjust font size for better readability on 1024px screens */
-        margin-left: 0; /* Reset margin for centering on 1024px screens */
-    }
-
-   
-
-    #abouttext1 {
-        height: 160px; /* Adjust height for better proportion on 1024px screens */
-        width: 60%; /* Adjust width for better fit on 1024px screens */
-        margin-top: 100px; /* Adjust font size for better readability on 1024px screens */
-        margin-left: -20vh; /* Adjust margin for centering on 1024px screens */
-    }
-
-    .heroimg {
-        height: 180px; /* Adjust height for better proportion on 1024px screens */
-        width: 25%; /* Adjust width for better fit on 1024px screens */
-        margin: 0 auto; /* Center the element on 1024px screens */
-    }
-
-    #nimg {
-        height: 120px; /* Adjust height for better proportion on 1024px screens */
-        width: 25%; /* Adjust width for better fit on 1024px screens */
-        /* Center the element on 1024px screens */
-        margin-top: -20vh; 
-        margin-left: 70vw;/* Adjust margin top for spacing on 1024px screens */
-    }
-
-    .aboutcard {
-        height: 180px; /* Adjust height for better proportion on 1024px screens */
-        width: 60%; /* Adjust width for better fit on 1024px screens */
-        font-size: 12px; /* Adjust font size for better readability on 1024px screens */
-    }
-
-    .obj {
-        font-size: 30px; /* Adjust font size for better readability on 1024px screens */
-        margin-left: 15vw; /* Adjust margin for centering on 1024px screens */
-        margin-top: 4vw; /* Adjust margin top for spacing on 1024px screens */
-        margin-bottom: -1vh; /* Adjust margin bottom for spacing on 1024px screens */
-    }
-
-    .hero {
-        width: 100%; /* Adjust width for full responsiveness on 1024px screens */
-        height: 600px; /* Adjust height for better display on 1024px screens */
-    }
-}
-

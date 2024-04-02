@@ -18,6 +18,8 @@ import Gallery from './components/Gallery'
 import Projects from './components/Projects'
 import Completed from './components/Completed'
 import Ongoing from './components/Ongoing'
+import Achivements from './components/Achivements'
+import Offer from './components/Offer'
 function App() {
   return (
     <>
@@ -31,6 +33,8 @@ function App() {
           <Route path='/project' element={<Projects/>}/>
           <Route path='/ongoing' element={<Ongoing/>}/>
           <Route path='/completed' element={<Completed/>}/>
+          <Route path='/achivements' element={<Achivements/>}/>
+          <Route path='/offer' element={<Offer/>}/>
           <Route path='/One' element={<One/>}/>
           <Route path='/Two' element={<Two/>}/>
           <Route path='/Three' element={<Three/>}/>

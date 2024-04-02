@@ -1,0 +1,34 @@
+.all1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    width: 800px;
+    background-color: #d9d9d9;
+    padding: 20px;
+    border-radius: 30px;
+    color: black;
+    
+}
+.Achiimg{
+    margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+    .one{
+        width: 500px;
+        background-color: #d9d9d9;
+        padding: 20px;
+        border-radius: 30px;
+        color: black;
+        height: 200px;
+        font-size: 10px;
+    }
+    .Achiimg{
+        margin-bottom: 20px;
+
+    }
+    .all1{
+        margin-bottom: 35px;
+    }
+}

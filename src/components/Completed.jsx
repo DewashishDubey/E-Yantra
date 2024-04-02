@@ -48,6 +48,18 @@ function Completed() {
             </table>
             <p>
                 <br /><br />
+                <div className="blue">
+                YouTube Video Links
+                </div>
+                <div className="left" id='left'>
+                    <a href='https://www.youtube.com/watch?v=TIYP11y1q7k'>•Detecting Raspberry Pi Microprocessor  components using image recognition</a>
+</div>
+                <div className="left" id='left'>
+                    <a href='https://www.youtube.com/watch?v=TIYP11y1q7k'>•Elsi Hackathon</a>
+</div>
+                <div className="left" id='left'>
+                    <a href='https://www.youtube.com/watch?v=GV-Y_JkH1Ds'>•Elsi Hackathon</a>
+</div>
                 <p className='blue'>HARDWARE CONFIGURATION</p>  <br /><br />
                 &nbsp;&nbsp;&nbsp;&nbsp;COMPONENTS<br /><br />
                 <div className="left">

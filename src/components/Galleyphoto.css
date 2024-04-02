@@ -43,10 +43,7 @@ margin-top: 50px;
 
 }
 
-img:hover{
-    scale: 1.08 ;
-    transition: 1s;
-}
+
 /* For screens smaller than 768px (typical phone screens) */
 @media only screen and (max-width: 767px) {
     .allph {
