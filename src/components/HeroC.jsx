@@ -24,11 +24,12 @@ function HeroC() {
 
   return (
     <>
+    <div className="o">
       <h2>
-        <span>For</span> Future Reference
+        Highlights
       </h2>
       <hr className="n" />
-
+      </div>
 
       <div className="slider-container">
         <Slider {...settings}>

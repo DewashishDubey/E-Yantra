@@ -5,6 +5,11 @@ h2{
 h2 span{
     color: #0C4CA2;
 }
+.o{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .cards{
     display: flex;
     flex-wrap: wrap;

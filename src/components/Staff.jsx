@@ -49,8 +49,11 @@ function Staff() {
   };
   return (<>
     <div id="Staff">
+      <div className="o">
       <h2><span>Faculty</span> </h2>
       <hr className="n" />
+      </div>
+      
 
       <div className="slider-container">
         <Slider {...settings}>

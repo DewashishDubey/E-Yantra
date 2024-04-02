@@ -6,6 +6,11 @@
     margin: auto;
     border-radius: 20px;
 }
+.o{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .scard {
     padding-top: 30px;

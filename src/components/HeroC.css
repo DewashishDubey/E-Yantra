@@ -6,6 +6,11 @@
     border-radius: 80px; 
     padding-bottom: 20px ;
 }
+.o{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 h3 {
     margin: auto;
     margin-left: 50vw;

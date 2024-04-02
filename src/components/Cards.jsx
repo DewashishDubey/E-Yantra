@@ -8,8 +8,11 @@ import { Link } from 'react-router-dom'
 function Cards() {
   return (
     <>
-      <h2><span>Our</span> Components</h2>
+    <div className="o">
+    <h2><span>Our</span> Components</h2>
       <hr className="n" />
+    </div>
+      
       <div className="cards">
         <div className='card'>
         <Link to='/Seven '>

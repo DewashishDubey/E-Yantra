@@ -41,6 +41,7 @@ body {
 }
 .logo {
     display: flex;
+    margin-left: -200px;
 }
 #logoim {
     margin-left: 20px;
