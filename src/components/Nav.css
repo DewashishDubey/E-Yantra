@@ -208,9 +208,3 @@ body {
         margin-left: -1px;
     }
 }
-@media (max-width: 1072px) {
-    .nav-elements{
-        margin-left: -55px;
-    }
-   
-}
