@@ -16,6 +16,7 @@ const Ongoing = () => {
             <NavLink to="/ongoing" ><span><h1 className='ong1'>Ongoing projects</h1></span></NavLink>
             <NavLink to="/completed" ><span><h1 className='com1'>Completed projects</h1></span></NavLink>
             </div>
+            <div className="tab">
             <table>
                 <tr>
                     <th>S.No</th>
@@ -44,6 +45,7 @@ const Ongoing = () => {
                 </tr>
 
             </table>
+            </div>
             <p>
                 <br /><br />
                 <p className='blue'>HARDWARE CONFIGURATION</p>  <br /><br />

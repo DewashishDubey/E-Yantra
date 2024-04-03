@@ -1,8 +1,4 @@
-table {
-    margin-top: 80px;
-    font-family: arial, sans-serif;
-    width: 100%;
-  }
+
   .flex{
     display: flex;
     justify-content: space-around;
@@ -14,11 +10,16 @@ table {
   .com1{
     color: black;
   }
-  td, th {
-    border: 1px solid #dddddd;
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
     text-align: left;
-    padding: 20px;
-  }
+    border-bottom: 1px solid #ddd;
+}
   
   tr:nth-child(even) {
     background-color: #0C4CA2;
@@ -46,4 +47,9 @@ table {
     font-weight: 500;
     position: relative;
 }
-
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens */
+  th, td {
+      font-size: 12px; /* Example adjustment, you can tweak as needed */
+  }
+}
