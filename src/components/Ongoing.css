@@ -1,7 +1,6 @@
 table {
     margin-top: 80px;
     font-family: arial, sans-serif;
-    
     width: 100%;
   }
   .flex{
@@ -47,15 +46,4 @@ table {
     font-weight: 500;
     position: relative;
 }
-  @media only screen and (max-width: 600px) {
-    .center {
-        margin-left: 25vw;
-        font-size: 10px;
-         /* Reset margin for smaller screens */
-    }
-    h1{
-      font-size: 15px;
-      margin-top: 90px;
-      margin-left: 05vw;
-    }
-}
+

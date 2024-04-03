@@ -48,7 +48,9 @@ function Footer() {
       <div id='rssBlock'>
         <h3 className='footerh3'>Designed by:</h3>
    <p className="cnnContents">
-       <span className="marqueeStyle">Priyanshu Arora  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  Anurag Dutta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Ashish Shiv </span>
+       <span className="marqueeStyle">  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;  Anurag Dutta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Ashish Shiv  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Dewashish Dubey
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raghav Khanna&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Vanshika Yadav&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Priyanshu Arora </span>
       </p>
       </div>
     </>
