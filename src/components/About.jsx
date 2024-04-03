@@ -2,6 +2,7 @@ import './About.css'
 import heroimg from '../assets/heroimg.png';
 import heroimg1 from '../assets/eysrc.png';
 import mission from '../assets/miss.png';
+import mission1 from '../assets/about.png';
 function About() {
   return (
     <>
@@ -45,6 +46,16 @@ creating a sustainable ecosystem with students and
 faculty
           </div>
         
+          </div>
+          <div className="vision">Vision</div>
+          <div className="thall">
+           
+            <div className="aboutcard" id='oo'>
+            A unique space dedicated for fostering creativity and
+innovation in the realm of Embedded systems, Internet
+of Things (IoT), Robotics and Digital twin.
+          </div>
+          <img className='nimg'src={mission1} alt="" />
           </div>
       </div>
     </>
