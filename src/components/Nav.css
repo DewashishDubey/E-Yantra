@@ -71,8 +71,7 @@ body {
     background-color: rgba(255, 255, 255, 0.9);
     /* Adjust the alpha value (last parameter) to change the level of translucency */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* Optional: Add shadow for better visibility */
-    border-radius: 50px;
+  
 }
 .nav-elements ul a.active::after {
     content: '';
@@ -101,7 +100,6 @@ body {
     top: 100%;
     left: 0;
     background-color: #ffffff;
-    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 10px;
     display: none;
@@ -168,14 +166,13 @@ body {
         position: absolute;
         top: 60px;
         left: 0;
-        background-color: #feffff;
+        background-color: rgba(255, 255, 255, 0.9);
         width: 100%;
         padding: 5px;
         box-sizing: border-box;
-        border-radius: 50px;
         height: 80px;
         transition: all 2s ease;
-        margin-top: 5px;
+        margin-top: -3.5 px;
     }
 
     .nav-elements.active {
@@ -193,7 +190,6 @@ body {
         /* Adjust the alpha value (last parameter) to change the level of translucency */
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         /* Optional: Add shadow for better visibility */
-        border-radius: 50px;
     }
 
     .nav-elements ul a:hover {
