@@ -64,7 +64,7 @@ const Galleryphoto = () => {
     <img className='Galleryimg' src={img15} alt="" />
     </div>
     
-    <img className='bgalleryimg' src={img2} alt="" />
+    <img className='bgalleryimg' src={img8} alt="" />
 <div className="allph">
 <img className='Galleryimg' src={img16} alt="" />
 <img className='Galleryimg' src={img20} alt="" />
@@ -80,7 +80,6 @@ const Galleryphoto = () => {
 <img className='Galleryimg' src={img24} alt="" />
 <img className='Galleryimg' src={img25} alt="" />
 <img className='Galleryimg' src={img26} alt="" />     
-<img className='Galleryimg' src={img8} alt="" />     
 
 </div>
 
