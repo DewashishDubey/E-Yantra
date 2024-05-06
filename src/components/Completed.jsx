@@ -15,35 +15,42 @@ function Completed() {
     <table>
                 <tr>
                     <th>S.No</th>
-                    <th>Particulars</th>
-                    <th>Mentors</th>
+                  <th>Particulars</th>
+                  <th>Mentors</th>
+                  <th>Project Links</th>
                 </tr>
                 <tr>
                     <td>1</td>
                     <td>4 wheel -Line follower using Arduino</td>
-                    <td>Dr.J.Kalaivani and Dr.V.Angayarkanni</td>
+                  <td>Dr.J.Kalaivani and Dr.V.Angayarkanni</td>
+                  <td></td>
                 </tr>
                 <tr>
                     <td>2</td>
                     <td>Automated Attendance and Access Control System</td>
-                    <td>Dr.J.Kalaivani</td>
+                  <td>Dr.J.Kalaivani</td>
+                  <td><a className='tablelink1' href="https://youtu.be/GV-Y_JkH1Ds?si=C4TwF2LgrC351FoR">Project Link</a></td>
                 </tr>
                 <tr>
                     <td>3</td>
                     <td>Light Automation System with Voice Assistant</td>
                     <td>Dr.V.Angayarkanni
-</td>
+                  </td>
+                  <td></td>
                 </tr>
                 <tr>
                     <td>4</td>
                     <td>Microprocessor Component Detector</td>
-                    <td>Dr.P.Kirubanandham</td>
+                  <td>Dr.P.Kirubanandham</td>
+                  <td><a className='tablelink1' href="https://youtu.be/TIYP11y1q7k">Project Link</a></td>
                 </tr>
                 <tr>
                     <td>5</td>
                     <td>Security system with Raspberry Pi cameras and motion detectors.</td>
-                    <td>Dr.C.Ashok kumar</td>
-                </tr>
+                  <td>Dr.C.Ashok kumar</td>
+                  <td><a className='tablelink' href="https://youtu.be/zacMMSCJZQA?feature=shared">Project Link</a></td>
+              </tr>
+              
 
             </table>
             <p>
