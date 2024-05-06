@@ -52,4 +52,7 @@ th, td {
   th, td {
       font-size: 12px; /* Example adjustment, you can tweak as needed */
   }
+  th{
+    height: 50px;
+  }
 }
