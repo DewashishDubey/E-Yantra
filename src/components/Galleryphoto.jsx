@@ -19,6 +19,12 @@ import videofile2 from "../assets/C18.mp4";
 import videofile3 from "../assets/C19.mp4";
 import img20 from "../assets/C20.jpg";
 import img21 from "../assets/C21.jpg";
+import img22 from "../assets/C22.jpeg";
+import img23 from "../assets/C23.jpeg";
+import img24 from "../assets/C24.jpeg";
+import img25 from "../assets/C25.jpeg";
+import img26 from "../assets/C26.jpeg";
+
 
 import "./Galleyphoto.css";
 
@@ -28,7 +34,7 @@ const Galleryphoto = () => {
     <div className="o"> <h2 className='galleryhead'><span>Gallery</span> </h2>
       <hr className="n2"/></div>
      
-      <img className='bgalleryimg' src={img2} alt="" />
+    <img className='bgalleryimg' src={img22} alt="" />
       <div className="allph">
         <img className='Galleryimg' src={img3} alt="" />
         <img className='Galleryimg' src={img4} alt="" />
@@ -58,18 +64,25 @@ const Galleryphoto = () => {
     <img className='Galleryimg' src={img15} alt="" />
     </div>
     
-    <img className='bgalleryimg' src={img8} alt="" />
+    <img className='bgalleryimg' src={img2} alt="" />
 <div className="allph">
 <img className='Galleryimg' src={img16} alt="" />
 <img className='Galleryimg' src={img20} alt="" />
 <img className='Galleryimg' src={img21} alt="" />     
+<img className='Galleryimg' src={img23} alt="" />
 
 </div>
 <video   className='bgalleryimg' width="400" controls loop muted>
         <source src={videofile3} type="video/mp4"/>
 
       </video>
+<div className="allph">
+<img className='Galleryimg' src={img24} alt="" />
+<img className='Galleryimg' src={img25} alt="" />
+<img className='Galleryimg' src={img26} alt="" />     
+<img className='Galleryimg' src={img8} alt="" />     
 
+</div>
 
     </>
   )

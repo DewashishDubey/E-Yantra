@@ -5,7 +5,7 @@ import Footer from './Footer'
 import img8 from '../assets/C8.jpg'
 import img13 from '../assets/C13.jpg'
 import img20 from '../assets/C20.jpg'
-
+import img21 from '../assets/C23.jpeg'
 function Achivements() {
   return (
     <>
@@ -18,7 +18,7 @@ function Achivements() {
 by participating in a national-level project
 hackathon hosted by IIT Bombay, solidifying our
 position among the TOP 25 colleges in the country.</div> 
-<img className='Achiimg' src={img8} alt="" /></div> 
+<img className='Achiimg' src={img21} alt="" /></div> 
 <br/>
 
 <div className="sec"><img className='Achiimg' src={img13} alt="" />
