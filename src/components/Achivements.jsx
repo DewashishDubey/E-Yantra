@@ -58,17 +58,21 @@ function Achivements() {
           <div className="st1">
       As an outcome of Metaverse course conducted by PRAYA LABS two students received internships at Praya Labs(Thiruvanamalai).
 <br />
-* N. Tejashree 2nd year CTECH <br />
-R. Yohesh 2nd year CTECH
+1. N. Tejashree 2nd year CTECH <br />
+2. R. Yohesh 2nd year CTECH
+          </div>
+          <br />
+        </div>
+        <br />
+        <div className="thi">
+          <div className="st1">
 <br />
-
 Twin-Tech Expo outcome gave Industrial project expansion opportunity for two projects.
 <br />
 1. Smart Automated High Tech Classroom
 <br />
-2. Ferro Finder BOT
-          </div>
-          <br />
+2. Ferro Finder BOT.</div>
+          <img className='Achiimg' src={img20} alt="" />
         </div>
       </div>
 
