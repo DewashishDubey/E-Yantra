@@ -61,8 +61,7 @@ function Achivements() {
 * N. Tejashree 2nd year CTECH <br />
 R. Yohesh 2nd year CTECH
 <br />
-PRAYA LABS
-<br />
+
 Twin-Tech Expo outcome gave Industrial project expansion opportunity for two projects.
 <br />
 1. Smart Automated High Tech Classroom
