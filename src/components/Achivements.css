@@ -37,13 +37,12 @@
     align-items: center;
     display: flex;
     height: 45vh;
-    width: 50vw;
+    width: 55vw;
     font-size: 20px;
     justify-content: center;
     text-align: center;
     margin-right: 50px;
     margin-left: 50px;
-
 }
 
 @media (max-width: 576px) {
