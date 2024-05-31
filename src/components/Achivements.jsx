@@ -56,7 +56,7 @@ function Achivements() {
         <div className="sec">
           <img className='Achiimg' src={img13} alt="" />
           <div className="st1">
-          As an outcome of Metaverse course conducted by PRAYA LABS two students received internships at Praya Labs (Thiruvanamalai).
+      As an outcome of Metaverse course conducted by PRAYA LABS two students received internships at Praya Labs(Thiruvanamalai).
 <br />
 * N. Tejashree 2nd year CTECH <br />
 R. Yohesh 2nd year CTECH
