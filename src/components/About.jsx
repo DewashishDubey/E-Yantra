@@ -5,7 +5,7 @@ import mission from '../assets/miss.png';
 import mission1 from '../assets/about.png';
 function About() {
   return (
-    <>
+    <> 
       <div className="hero" >
         <div className='about'>About Us</div>
 
