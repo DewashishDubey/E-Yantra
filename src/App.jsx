@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './App.css'
+import './App.css' 
 import Home from './components/Home'
 import Comp from './components/Comp'
 import Staff from './components/Staff'
